@@ -9,7 +9,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIO(server);
 
-const IP_ADDRESS = '103.145.138.78'; // Replace with your desired IP address
+const IP_ADDRESS = '167.71.208.193'; // Replace with your desired IP address
 const PORT = 3000; // Replace with your desired port number
 
 app.use(favicon(path.join(__dirname, 'favicon.ico')));
